@@ -1,10 +1,10 @@
-// 剑指offer.cpp : 定义控制台应用程序的入口点。
+//// 剑指offer.cpp : 定义控制台应用程序的入口点。
+////
 //
-
 #include "stdafx.h"
-
-
-////矩阵中的路径
+//
+//
+//////矩阵中的路径
 //#include <iostream>
 //#include <stack>
 //#include <vector>
@@ -78,10 +78,10 @@
 //	cout << s.hasPath(matrix, 3, 4, str2) << endl;
 //	return 0;
 //}
-
-
-
-//青蛙跳台阶
+//
+//
+//
+////青蛙跳台阶
 //#include <iostream>
 //#include <stack>
 //#include <vector>
@@ -113,9 +113,9 @@
 //		cout << s.jumpFloor(n) << endl;
 //	return 0;
 //}
-
-
-//变态青蛙跳
+//
+//
+////变态青蛙跳
 //#include <iostream>
 //#include <vector>
 //
@@ -153,9 +153,9 @@
 //	cout << s.jumpFloorII(n) << endl;
 //	return 0;
 //}
-
-//最小的k个数
-//二分法,思想类似快排
+//
+////最小的k个数
+////二分法,思想类似快排
 //#include <iostream>
 //#include <stack>
 //#include <vector>
@@ -211,9 +211,9 @@
 //	cout << endl;
 //	return 0;
 //}
-
-
-////根据前序和中序重建二叉树
+//
+//
+//////根据前序和中序重建二叉树
 //#include <iostream>
 //#include <vector>
 //
@@ -273,9 +273,9 @@
 //	s.preorder(root);
 //	return 0;
 //}
-
-
-//2个stack实现队列
+//
+//
+////2个stack实现队列
 //#include <iostream>
 //#include <stack>
 //
@@ -315,9 +315,9 @@
 //
 //	return 0;
 //}
-
-
-//旋转数组的最小数字
+//
+//
+////旋转数组的最小数字
 //#include <iostream>
 //#include <vector>
 //
@@ -361,9 +361,9 @@
 //	cout << s.minNumberInRotateArray(nums) << endl;
 //	return 0;
 //}
-
-
-//矩形覆盖
+//
+//
+////矩形覆盖
 //#include <iostream>
 //#include <vector>
 //
@@ -396,10 +396,10 @@
 //	cout << s.rectCover(n) << endl;
 //	return 0;
 //}
-
-
-////判断B是不是A的子树
-////思路：寻找到和B根节点相等的A树节点，然后判断是否结构相同
+//
+//
+//////判断B是不是A的子树
+//////思路：寻找到和B根节点相等的A树节点，然后判断是否结构相同
 //#include <iostream>
 //#include <vector>
 //
@@ -450,9 +450,9 @@
 //	Solution s;
 //	return 0;
 //}
-
-////栈的压入弹出序列
-////思路：复现压栈出栈操作
+//
+//////栈的压入弹出序列
+//////思路：复现压栈出栈操作
 //#include <iostream>
 //#include <vector>
 //#include <stack>
@@ -491,10 +491,10 @@
 //	cout << s.IsPopOrder(pushV, popV) << endl;;
 //	return 0;
 //}
-
-
-////Ugly Number
-////思路：复现压栈出栈操作
+//
+//
+//////Ugly Number
+//////思路：复现压栈出栈操作
 //#include <iostream>
 //#include <vector>
 //#include <algorithm>
@@ -535,12 +535,12 @@
 //	cout << s.GetUglyNumber_Solution(n) << endl;;
 //	return 0;
 //}
-
-
-
-
-//二进制数中1的个数
-
+//
+//
+//
+//
+////二进制数中1的个数
+//
 //#include <iostream>
 //#include <vector>
 //#include <algorithm>
@@ -568,12 +568,12 @@
 //	cout << s.NumberOf1(n) << endl;;
 //	return 0;
 //}
-
-
-
-
-////数的次方
 //
+//
+//
+//
+//////数的次方
+////
 //#include <iostream>
 //#include <vector>
 //#include <algorithm>
@@ -616,10 +616,10 @@
 //	cin >> n;
 //	return 0;
 //}
-
-
-////两个链表的第一个公共结点
 //
+//
+//////两个链表的第一个公共结点
+////
 //#include <iostream>
 //#include <vector>
 //#include <algorithm>
@@ -657,13 +657,13 @@
 //	cin >> n;
 //	return 0;
 //}
-
-
-
-
-
-////奇数位于偶数前
 //
+//
+//
+//
+//
+//////奇数位于偶数前
+////
 //#include <iostream>
 //#include <vector>
 //#include <algorithm>
@@ -707,13 +707,13 @@
 //	cout << endl;
 //	return 0;
 //}
-
-
-
-
-
-//链表的倒数第k个节点
-
+//
+//
+//
+//
+//
+////链表的倒数第k个节点
+//
 //#include <iostream>
 //#include <vector>
 //#include <algorithm>
@@ -753,9 +753,9 @@
 //	Solution s;
 //	return 0;
 //}
-
-
-//二叉树镜像
+//
+//
+////二叉树镜像
 //#include <iostream>
 //#include <vector>
 //#include <algorithm>
@@ -792,10 +792,10 @@
 //	Solution s;
 //	return 0;
 //}
-
-
-
-//顺时针打印矩阵
+//
+//
+//
+////顺时针打印矩阵
 //#include <iostream>
 //#include <vector>
 //#include <algorithm>
@@ -852,10 +852,10 @@
 //	cout << endl;
 //	return 0;
 //}
-
-
-////包含min函数的栈
-////思路：一个栈正常操作，另一个栈维护最小值，当push的元素比最小栈栈顶元素小或等，则入栈；pop时，当pop元素等于栈顶元素，则最小栈pop栈顶元素；
+//
+//
+//////包含min函数的栈
+//////思路：一个栈正常操作，另一个栈维护最小值，当push的元素比最小栈栈顶元素小或等，则入栈；pop时，当pop元素等于栈顶元素，则最小栈pop栈顶元素；
 //#include <iostream>
 //#include <stack>
 //#include <algorithm>
@@ -900,11 +900,11 @@
 //	Solution s;
 //	return 0;
 //}
-
-
-
-//包含min函数的栈
-//思路：一个栈正常操作，另一个栈维护最小值，当push的元素比最小栈栈顶元素小或等，则入栈；pop时，当pop元素等于栈顶元素，则最小栈pop栈顶元素；
+//
+//
+//
+////包含min函数的栈
+////思路：一个栈正常操作，另一个栈维护最小值，当push的元素比最小栈栈顶元素小或等，则入栈；pop时，当pop元素等于栈顶元素，则最小栈pop栈顶元素；
 #include <iostream>
 #include <stack>
 #include <algorithm>
